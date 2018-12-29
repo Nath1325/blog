@@ -15,9 +15,10 @@ class ArticleGateway{
             $this->con=$con;
     }
 
-    public function insert($titre,$article, $date){
-        $query = 'INSERT INTO News VALUES (NULL, :titre,:article,:date)'; // NULL car Id autoincrement
+    public function insert($id_user,$titre,$article, $date){
+        $query = 'INSERT INTO News VALUES (:id_user,NULL, :titre,:article,:date)'; // NULL car Id autoincrement
         $this->con->executeQuery($query,array(
+            ':id_user'=> array($id_user,PDO::PARAM_INT),
             ':titre'=> array($titre,PDO::PARAM_STR),
             ':article'=> array($article,PDO::PARAM_STR),
             ':date'=> array($date,PDO::PARAM_STR),

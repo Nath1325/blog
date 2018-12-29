@@ -3,13 +3,15 @@
 
 class Article{
     private $id_article;
+    private $id_user;
     private $titre;
     private $article;
     private $date;
 
-    public function __construct($id_article, $titre, $article, $date)
+    public function __construct($id_article,$id_user, $titre, $article, $date)
     {
         $this->id_article=$id_article;
+        $this->id_user=$id_user;
         $this->article=$article;
         $this->titre = $titre;
         $this->date = $date;
@@ -28,6 +30,12 @@ class Article{
     {
         return $this->article;
     }
+
+    public function getIdUser()
+    {
+        return $this->id_user;
+    }
+
 
     /**
      * @param mixed $article

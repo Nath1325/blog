@@ -8,15 +8,17 @@
 
 class User
 {
+    private $id_user;
     private $nom;
     private $prenom;
     private $pseudo;
     private $mail;
     private $mdp;
-    private $isAdmin;
 
-    private function __construct($nom, $prenom, $pseudo, $mail, $mdp)
+
+    private function __construct($id_user, $nom, $prenom, $pseudo, $mail, $mdp)
     {
+        $this->id_user=$id_user;
         $this->nom=$nom;
         $this->prenom=$prenom;
         $this->pseudo=$pseudo;
@@ -30,6 +32,11 @@ class User
     public function getNom()
     {
         return $this->nom;
+    }
+
+    public function getIdUser()
+    {
+        return $this->id_user;
     }
 
     /**

@@ -14,8 +14,8 @@ require_once('DAL/UserGateway.php');
 
 $dsn ='mysql:host=localhost;dbname=dbnakrulic';
 
-$user = "nakrulic";
-$password = "achanger";
+$user = "root";
+$password = "";
 
 $db = new Connection($dsn,$user,$password);
 
