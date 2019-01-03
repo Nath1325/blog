@@ -8,6 +8,6 @@ require (ROOT.'Modele/Article.php');
 require (ROOT.'Modele/connection.php');
 require (ROOT.'Modele/User.php');
 
-$param = explode('/',$_GET['p']);
+$params = explode('/',$_GET['p']);
 
-print_r($param);
+print_r($params);
