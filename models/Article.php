@@ -2,6 +2,14 @@
 
 
 class Article extends ArticleGateway {
+
+    var $table = 'articles';
+
+    public function getAll(){
+            return $this->FindAll();
+    }
+
+    /*
     private $id_article;
     private $id_user;
     private $titre;
@@ -19,9 +27,7 @@ class Article extends ArticleGateway {
 
 
 
-    /**
-     * @return mixed
-     */
+
     public function getIdArticle()
     {
         return $this->id_article;
@@ -38,44 +44,34 @@ class Article extends ArticleGateway {
     }
 
 
-    /**
-     * @param mixed $article
-     */
+
     public function setArticle($article)
     {
         $this->article = $article;
     }
 
-    /**
-     * @return mixed
-     */
+
     public function getTitre()
     {
         return $this->titre;
     }
 
-    /**
-     * @param mixed $titre
-     */
+
     public function setTitre($titre)
     {
         $this->titre = $titre;
     }
 
-    /**
-     * @return mixed
-     */
+
     public function getDate()
     {
         return $this->date;
     }
 
-    /**
-     * @param mixed $date
-     */
+
     public function setDate($date)
     {
         $this->date = $date;
     }
-
+    */
 }

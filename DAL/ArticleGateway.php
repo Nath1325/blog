@@ -9,9 +9,12 @@
 require('models/Article.php');
 
 class ArticleGateway{
+    private $dsn ='mysql:host=localhost;dbname=dbnakrulic';
+    private $user = "root";
+    private $password = "";
     private $con;
 
-    /*public function __construct(Connection $con)
+   /* public function __construct(Connection $con)
     {
             $this->con=$con;
     }*/
@@ -62,6 +65,7 @@ class ArticleGateway{
     }
 
     public function FindAll(){
+        $this->con = new Connection($this->dsn,$this->user,$this->password);
         $query= 'SELECT * FROM News';
         $this->con->executeQuery($query);
         $resultat= $this->con->getResultsTableau();

@@ -10,11 +10,14 @@ class Acceuil extends Controller
 {
     function index(){
 
-        $d = array();
+        $this->loadModel('Article');
+        /*
         $d['Article'] = array(
             'titre' => 'salut',
             'description' => 'ceci est un test'
         );
+        */
+        $d['articles'] = $this->Article->getAll();
         $this->set($d);
         $this->render('index');
     }
