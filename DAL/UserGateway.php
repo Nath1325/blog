@@ -6,7 +6,7 @@
  * Time: 10:35
  */
 
-require('Modele/User.php');
+require('models/User.php');
 
 class UserGateway{
     private $con;

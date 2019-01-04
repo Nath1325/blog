@@ -6,7 +6,7 @@
  * Time: 08:18
  */
 
-require('Modele/Article.php');
+require('models/Article.php');
 
 class ArticleGateway{
     private $con;
