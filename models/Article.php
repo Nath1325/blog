@@ -1,7 +1,7 @@
 <?php
 
 
-class Article{
+class Article extends ArticleGateway {
     private $id_article;
     private $id_user;
     private $titre;
@@ -16,6 +16,7 @@ class Article{
         $this->titre = $titre;
         $this->date = $date;
     }
+
 
 
     /**

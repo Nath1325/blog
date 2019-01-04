@@ -6,7 +6,7 @@
  * Time: 10:06
  */
 
-require_once('Modele/connection.php');
+require_once('models/connection.php');
 
 require_once('DAL/ArticleGateway.php');
 

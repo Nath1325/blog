@@ -10,11 +10,17 @@ require (ROOT.'core/Controller.php');
 require (ROOT.'DAL/ArticleGateway.php');
 require (ROOT.'DAL/UserGateway.php');
 //require (ROOT.'Modele/Article.php');
-//require (ROOT.'Modele/connection.php');
+require (ROOT.'models/connection.php');
 //require (ROOT.'Modele/User.php');
 
 $params = explode('/',$_GET['p']);
 
+$dsn ='mysql:host=localhost;dbname=dbnakrulic';
+
+$user = "root";
+$password = "";
+
+$db = new Connection($dsn,$user,$password);
 
 $controller = $params[0];
 $action = isset($params[1]) ? $params[1] : 'index';

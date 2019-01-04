@@ -15,6 +15,7 @@ class Acceuil extends Controller
             'titre' => 'salut',
             'description' => 'ceci est un test'
         );
+        $this->set($d);
         $this->render('index');
     }
 

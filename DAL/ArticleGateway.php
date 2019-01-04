@@ -10,10 +10,11 @@ require('models/Article.php');
 
 class ArticleGateway{
     private $con;
-    public function __construct(Connection $con)
+
+    /*public function __construct(Connection $con)
     {
             $this->con=$con;
-    }
+    }*/
 
     public function insert($id_user,$titre,$article, $date){
         $query = 'INSERT INTO News VALUES (:id_user,NULL, :titre,:article,:date)'; // NULL car Id autoincrement
