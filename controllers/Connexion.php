@@ -11,4 +11,10 @@ class Connexion extends controller
     function index(){
         $this->render('connexion');
     }
+
+    function onConnect() {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+    }
 }
