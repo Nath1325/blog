@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b288fc46-b814-4c10-9980-d52c4e0a8ac9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Acceuil/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Acceuil/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Acceuil/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Acceuil/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/default.php" afterDir="false" />
-    </list>
+    <list default="true" id="b288fc46-b814-4c10-9980-d52c4e0a8ac9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-66" />
     <option name="y" value="36" />
     <option name="width" value="1890" />
@@ -259,16 +253,15 @@
       <workItem from="1546595575254" duration="6267000" />
       <workItem from="1546609802468" duration="4195000" />
       <workItem from="1546769722623" duration="3502000" />
-      <workItem from="1547023916579" duration="5149000" />
+      <workItem from="1547023916579" duration="5235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32202000" />
+    <option name="totallyTimeSpent" value="32288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24858299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
