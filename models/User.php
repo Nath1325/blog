@@ -6,8 +6,21 @@
  * Time: 09:38
  */
 
-class User
+class User extends UserGateway
 {
+    private $password;
+
+
+    public function exist($password,$pseudo) {
+        echo $password,$pseudo;
+        if (empty($this->FindByPassword($password))) return false;
+        if (empty($this->FindByPseudo($pseudo))) return false;
+        return true;
+
+    }
+
+}
+   /*
     private $id_user;
     private $nom;
     private $prenom;
@@ -26,9 +39,7 @@ class User
         $this->mdp=$mdp;
     }
 
-    /**
-     * @return mixed
-     */
+
     public function getNom()
     {
         return $this->nom;
@@ -39,25 +50,18 @@ class User
         return $this->id_user;
     }
 
-    /**
-     * @return mixed
-     */
     public function getPrenom()
     {
         return $this->prenom;
     }
 
-    /**
-     * @return mixed
-     */
+
     public function getPseudo()
     {
         return $this->pseudo;
     }
 
-    /**
-     * @return mixed
-     */
+
     public function getMail()
     {
         return $this->mail;
@@ -69,4 +73,4 @@ class User
     }
 
 
-}
+} */

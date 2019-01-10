@@ -1,6 +1,6 @@
 
 <body class="text-center">
-    <form id="monForm" class="form-signin" style="margin-left: 40% ; margin-right: 40%">
+    <form id="monForm" action="connexion/onConnect" class="form-signin" style="margin-left: 40% ; margin-right: 40%" method="post" >
         <br>
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
         <br>

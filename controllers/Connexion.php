@@ -8,6 +8,7 @@
 
 class Connexion extends controller
 {
+
     function index(){
         $this->render('connexion');
     }
@@ -15,6 +16,12 @@ class Connexion extends controller
     function onConnect() {
         $username = $_POST['username'];
         $password = $_POST['password'];
+
+        $this->loadModel('User');
+
+        echo $this->User->exist($password,$username);
+
+
 
     }
 }
