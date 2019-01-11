@@ -1,141 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2141826-b990-46bd-966b-64086a5668d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/ArticleGateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/ArticleGateway.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/UserGateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/UserGateway.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestBDD.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Acceuil.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Connexion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Article.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/connection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Acceuil/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Acceuil/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Connexion/connexion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/addons/datatables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/addons/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/clean-blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/clean-blog.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/mdb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/mdb.lite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/mdb.lite.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/mdb.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/modules/animations-extended.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/modules/animations-extended.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Thin.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/font/roboto/Roboto-Thin.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/formulaireTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/image/montagne.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/lightbox/default-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/lightbox/default-skin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/lightbox/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/overlays/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/overlays/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/overlays/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/overlays/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/overlays/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/overlays/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/overlays/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/overlays/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/overlays/09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/svg/arrow_left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/svg/arrow_right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/addons/datatables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/addons/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/mdb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/mdb.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/modules/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/modules/enhanced-modals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/modules/forms-free.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/modules/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/modules/scrolling-navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/modules/velocity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/modules/velocity.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/modules/waves.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/modules/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/_custom-styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/_custom-variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/addons/_datatables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/_helpers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/_masks.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/_waves.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/bootstrap/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/core/bootstrap/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_animations-basic.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_badges.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_cards.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_carousels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_depreciated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_dropdowns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_footers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_loader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_modals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_msc.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_navbars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_steppers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_switch.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/modules/animations-extended/_module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/free/modules/animations-extended/animations-extended.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/mdb.lite.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/scss/mdb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-    </list>
+    <list default="true" id="d2141826-b990-46bd-966b-64086a5668d7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +161,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/blog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -323,16 +189,15 @@
       <option name="presentableId" value="Default" />
       <updated>1547236437374</updated>
       <workItem from="1547236439421" duration="4077000" />
-      <workItem from="1547240726409" duration="8000" />
+      <workItem from="1547240726409" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4085000" />
+    <option name="totallyTimeSpent" value="4339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25198728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
