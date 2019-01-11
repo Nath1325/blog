@@ -6,7 +6,7 @@
  * Time: 08:18
  */
 
-require('models/Article.php');
+//require('models/Article.php');
 
 class ArticleGateway{
     private $dsn ='mysql:host=localhost;dbname=dbnakrulic';
