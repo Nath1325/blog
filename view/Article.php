@@ -61,6 +61,9 @@
             </li>
 
         </ul>
+        <a href="index.php?action=connection">
+            <button type="button" href="index.php?action=connection" class=" btn-sm btn-outline-primary waves-effect">Admin Connection</button>
+        </a>
 
     </div>
 </nav>

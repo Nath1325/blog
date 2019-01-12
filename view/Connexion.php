@@ -1,4 +1,3 @@
-
 <!---------------- Header ------------------->
 
 
@@ -37,6 +36,7 @@
     <link href="style/css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="style/css/style.css" rel="stylesheet">
+    <link href="style/css/monCSS.css" rel="stylesheet">
 
 </head>
 
@@ -71,31 +71,28 @@
 
 <!---------------- Content ------------------->
 
-<header style="background: lightgray" class="position-relative overflow-hidden p-5 p-md-5 text-center bg-light">
-    <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Blog</h1>
-        <p class="lead font-weight-normal"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis massa et sapien porta condimentum ut ut mauris. Donec quis eros metus. </p>
-    </div>
-</header>
+<!-- Default form login -->
+<div class="margeConnexion">
+    <form class="text-center p-5 ">
 
-<br>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="post-preview">
-                <?php foreach ($articles as $a): ?>
-                    <a href="index.php?action=showArticle&article=<?php echo $a['id_article']; ?>">
-                        <h2 class="post-title"><?php echo $a['titre']; ?></h2>
-                    </a>
+        <p class="h4 mb-4">Sign in</p>
 
-                    <p class="post-meta"><?php echo $a['date_publication']; ?></p>
-                    <hr>
-                <?php endforeach ?>
-            </div>
+        <!-- Email -->
+        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
 
+        <!-- Password -->
+        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+        <div class="d-flex justify-content-around">
         </div>
-    </div>
+
+        <!-- Sign in button -->
+        <button type="button" class="btn btn-primary">Connection</button>
+
+
+    </form>
 </div>
+<!-- Default form login -->
 
 <!---------------- Footer ------------------->
 

@@ -50,6 +50,11 @@ class FrontController
                 $a = new Article();
                 $article = $a->getArticle($id);
                 require(__DIR__ . '/../view/Article.php');
+                break;
+
+            case "connection" :
+                require(__DIR__.'/../view/Connexion.php');
+                break;
 
 
 
