@@ -12,6 +12,9 @@
 
     <title>Clean Blog - Start Bootstrap Theme</title>
 
+
+
+
     <!-- Bootstrap core CSS -->
     <link href="style/endor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -22,6 +25,9 @@
 
     <!-- Custom styles for this template -->
     <link href="style/css/clean-blog.min.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
 
     <!---------------- Materiel design for Bootstrap ------------------->
 
@@ -37,6 +43,7 @@
     <link href="style/css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="style/css/style.css" rel="stylesheet">
+    <link href="style/css/monCSS.css" rel="stylesheet">
 
 </head>
 
@@ -61,22 +68,36 @@
                 <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
-        <a href="index.php?action=connection">
-            <button type="button" href="index.php?action=connection" class=" btn-sm btn-outline-primary waves-effect">Admin Connection</button>
-        </a>
-
+        <?php if(isset($_SESSION['login'])) {
+            echo '<div class="dropdown">';
+            echo '<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 40px">';
+            echo $_SESSION['login'];
+            echo '</button>';
+            echo '<div class="dropdown-menu dropdown-primary">';
+            echo '<a class="dropdown-item" href="#">Post new article</a>';
+            echo '<a href="index.php?action=logout" class="dropdown-item" href="#">Logout</a>';
+            echo'</div>';
+            echo'</div>';
+        }
+        else {
+            echo '<a href="index.php?action=connection">';
+            echo '<button type="button" href="index.php?action=connection" class="btn btn-primary">Admin Connection</button>';
+            echo '</a>';
+        }
+        ?>
     </div>
 </nav>
 
 
 <!---------------- Content ------------------->
 
-<header style="background: lightgray" class="position-relative overflow-hidden p-5 p-md-5 text-center bg-light">
+<header class="position-relative overflow-hidden p-5 p-md-5 text-center" style="background-image: url(ressources/background.jpg); background-position:65% 35% ;display::block;" >
     <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Blog</h1>
-        <p class="lead font-weight-normal"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis massa et sapien porta condimentum ut ut mauris. Donec quis eros metus. </p>
+        <h1 class="display-4 font-weight-normal" style="color: white" >Blog</h1>
+
     </div>
 </header>
+<br>
 
 <br>
 <div class="container">
@@ -85,7 +106,7 @@
             <div class="post-preview">
                 <?php foreach ($articles as $a): ?>
                     <a href="index.php?action=showArticle&article=<?php echo $a['id_article']; ?>">
-                        <h2 class="post-title"><?php echo $a['titre']; ?></h2>
+                        <h2 class="post-title" style="font-family: 'Trebuchet MS';font-weight: 800"><?php echo $a['titre']; ?></h2>
                     </a>
 
                     <p class="post-meta"><?php echo $a['date_publication']; ?></p>
@@ -97,14 +118,23 @@
     </div>
 </div>
 
+
 <!---------------- Footer ------------------->
 
-<footer class="page-footer font-small elegant-color-dark pt-4 fixed-bottom">
+<footer class="page-footer font-small bg-dark pt-4 fixed-bottom">
     <div class="container">
         <div class="footer-copyright text-center py-3"> created by :
             <a href="https://mdbootstrap.com/education/bootstrap/"> Nathan & Mehdi</a>
         </div>
 </footer>
 
+<script type="text/javascript" src="style/js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="style/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="style/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="style/js/mdb.min.js"></script>
+<script src="js/clean-blog.min.js"></script>
 </body>
 </html>

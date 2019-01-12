@@ -6,6 +6,8 @@
  * Time: 09:38
  */
 
+include_once (__DIR__.'/../DAL/UserGateway.php');
+
 class User
 {
 

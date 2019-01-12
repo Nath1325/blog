@@ -61,9 +61,23 @@
             </li>
 
         </ul>
-        <a href="index.php?action=connection">
-            <button type="button" href="index.php?action=connection" class=" btn-sm btn-outline-primary waves-effect">Admin Connection</button>
-        </a>
+        <?php if(isset($_SESSION['login'])) {
+            echo '<div class="dropdown">';
+            echo '<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 40px">';
+            echo $_SESSION['login'];
+            echo '</button>';
+            echo '<div class="dropdown-menu dropdown-primary">';
+            echo '<a class="dropdown-item" href="#">Post new article</a>';
+            echo '<a href="index.php?action=logout" class="dropdown-item" href="#">Logout</a>';
+            echo'</div>';
+            echo'</div>';
+        }
+        else {
+            echo '<a href="index.php?action=connection">';
+            echo '<button type="button" href="index.php?action=connection" class="btn btn-primary">Admin Connection</button>';
+            echo '</a>';
+        }
+        ?>
 
     </div>
 </nav>
@@ -98,5 +112,11 @@
             <a href="https://mdbootstrap.com/education/bootstrap/"> Nathan & Mehdi</a>
         </div>
 </footer>
-
+<script type="text/javascript" src="style/js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="style/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="style/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="style/js/mdb.min.js"></script>
 </body>

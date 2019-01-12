@@ -9,6 +9,7 @@
 include_once (__DIR__.'/../modele/Article.php');
 include_once (__DIR__.'/../modele/User.php');
 include_once (__DIR__.'/../modele/Connection.php');
+include_once (__DIR__.'/../controller/UserController.php');
 
 class FrontController
 {
@@ -41,9 +42,20 @@ class FrontController
         }
     }
 
+    private function afficherBDD(){
+        $article = new Article();
+        $articles = $article->getAll();
+        require(__DIR__ . '/../view/Acceuil.php');
+    }
+
     private function showAction ( string $action ){
 
         switch ($action){
+
+            case "acceuil" :
+                require(__DIR__.'/../view/Acceuil.php');
+                break;
+
 
             case "showArticle" :
                 $id = $_GET['article'];
@@ -55,6 +67,17 @@ class FrontController
             case "connection" :
                 require(__DIR__.'/../view/Connexion.php');
                 break;
+
+            case "login":
+                new UserController("login");
+                $this->afficherBDD();
+                break;
+
+            case "logout" :
+                new UserController("logout");
+                $this->afficherBDD();
+                break;
+
 
 
 

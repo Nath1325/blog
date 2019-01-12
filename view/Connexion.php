@@ -61,9 +61,23 @@
                 <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
-        <a href="index.php?action=connection">
-            <button type="button" href="index.php?action=connection" class=" btn-sm btn-outline-primary waves-effect">Admin Connection</button>
-        </a>
+        <?php if(isset($_SESSION['login'])) {
+            echo '<div class="dropdown">';
+            echo '<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 40px">';
+            echo $_SESSION['login'];
+            echo '</button>';
+            echo '<div class="dropdown-menu dropdown-primary">';
+            echo '<a class="dropdown-item" href="#">Post new article</a>';
+            echo '<a href="index.php?action=logout" class="dropdown-item" href="#">Logout</a>';
+            echo'</div>';
+            echo'</div>';
+        }
+        else {
+            echo '<a href="index.php?action=connection">';
+            echo '<button type="button" href="index.php?action=connection" class="btn btn-primary">Admin Connection</button>';
+            echo '</a>';
+        }
+        ?>
 
     </div>
 </nav>
@@ -73,21 +87,21 @@
 
 <!-- Default form login -->
 <div class="margeConnexion">
-    <form class="text-center p-5 ">
+    <form class="text-center p-5 " method="post" action="index.php?action=login">
 
         <p class="h4 mb-4">Sign in</p>
 
         <!-- Email -->
-        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+        <input type="username" name="username" class="form-control mb-4" placeholder="Username">
 
         <!-- Password -->
-        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+        <input type="password" name="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
 
         <div class="d-flex justify-content-around">
         </div>
 
         <!-- Sign in button -->
-        <button type="button" class="btn btn-primary">Connection</button>
+        <button type="submit" class="btn btn-primary">Connection</button>
 
 
     </form>
@@ -102,6 +116,12 @@
             <a href="https://mdbootstrap.com/education/bootstrap/"> Nathan & Mehdi</a>
         </div>
 </footer>
-
+<script type="text/javascript" src="style/js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="style/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="style/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="style/js/mdb.min.js"></script>
 </body>
 </html>

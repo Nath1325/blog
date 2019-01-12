@@ -2,71 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2141826-b990-46bd-966b-64086a5668d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blogV2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blogV2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/FrontController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/addons/datatables.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/addons/datatables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/mdb.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mdb.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/mdb.lite.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mdb.lite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/mdb.lite.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mdb.lite.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/mdb.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mdb.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/modules/animations-extended.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/modules/animations-extended.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/modules/animations-extended.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/modules/animations-extended.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/addons/datatables.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/addons/datatables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/addons/datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/addons/datatables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/css/monCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/monCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/mdb.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/mdb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/default-file-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/default-file-input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/enhanced-modals.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/enhanced-modals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/forms-free.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/forms-free.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/jquery.easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/jquery.easing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/scrolling-navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/scrolling-navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/velocity.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/velocity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/velocity.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/velocity.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/waves.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/waves.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/modules/wow.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/modules/wow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/_custom-skin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/_custom-skin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/addons/_datatables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/addons/_datatables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/_helpers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/_masks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/_masks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/_waves.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/_waves.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/bootstrap/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/bootstrap/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/core/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/core/bootstrap/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_animations-basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_animations-basic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_badges.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_carousels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_carousels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_depreciated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_depreciated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_dropdowns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_dropdowns.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_footers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_loader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_loader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_msc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_msc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_navbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_navbars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_steppers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_steppers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_switch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_switch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/modules/animations-extended/_module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/modules/animations-extended/_module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/free/modules/animations-extended/animations-extended.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/free/modules/animations-extended/animations-extended.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/mdb.lite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/mdb.lite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/scss/mdb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/scss/mdb.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/Acceuil.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/Acceuil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/Connexion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,38 +22,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/Acceuil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/Connexion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="878">
-              <caret line="89" column="64" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/Article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+            <state relative-caret-position="470">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/FrontController.php">
+        <entry file="file://$PROJECT_DIR$/ressources/background.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/js/bootstrap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/js/mdb.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,17 +68,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/css/monCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DAL/ArticleGateway.php">
+        <entry file="file://$PROJECT_DIR$/view/Connexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="646">
+              <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1201">
+              <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/FrontController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -133,17 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modele/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DAL/UserGateway.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -157,6 +134,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.js</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -164,21 +146,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/modele/User.php" />
         <option value="$PROJECT_DIR$/DAL/UserGateway.php" />
         <option value="$PROJECT_DIR$/DAL/ArticleGateway.php" />
         <option value="$PROJECT_DIR$/modele/Article.php" />
-        <option value="$PROJECT_DIR$/view/Article.php" />
-        <option value="$PROJECT_DIR$/view/Acceuil.php" />
+        <option value="$PROJECT_DIR$/modele/User.php" />
+        <option value="$PROJECT_DIR$/style/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/controller/UserController.php" />
         <option value="$PROJECT_DIR$/controller/FrontController.php" />
-        <option value="$PROJECT_DIR$/style/css/monCSS.css" />
+        <option value="$PROJECT_DIR$/view/Article.php" />
         <option value="$PROJECT_DIR$/view/Connexion.php" />
+        <option value="$PROJECT_DIR$/style/css/monCSS.css" />
+        <option value="$PROJECT_DIR$/view/Acceuil.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="977" />
-    <option name="y" value="80" />
+    <option name="x" value="680" />
+    <option name="y" value="-22" />
     <option name="width" value="1463" />
     <option name="height" value="1061" />
   </component>
@@ -210,6 +194,11 @@
               <item name="blogV2" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogV2" type="462c0819:PsiDirectoryNode" />
               <item name="modele" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogV2" type="462c0819:PsiDirectoryNode" />
+              <item name="ressources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blogV2" type="b2602c69:ProjectViewProjectNode" />
@@ -267,16 +256,19 @@
       <workItem from="1547240726409" duration="262000" />
       <workItem from="1547281886674" duration="8574000" />
       <workItem from="1547292628841" duration="3097000" />
+      <workItem from="1547297480718" duration="7451000" />
+      <workItem from="1547310841850" duration="2954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16010000" />
+    <option name="totallyTimeSpent" value="26415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25596184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2599364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,7 +282,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,55 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modele/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAL/UserGateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAL/ArticleGateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/Acceuil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/FrontController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/css/mdb.lite.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -378,17 +321,116 @@
     <entry file="file://$PROJECT_DIR$/style/css/mdb.lite.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/css/monCSS.css">
+    <entry file="file://$PROJECT_DIR$/DAL/ArticleGateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAL/UserGateway.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/js/bootstrap.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/js/mdb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/css/monCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/Connexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
-          <caret line="89" column="64" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1201">
+          <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ressources/background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/Acceuil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
