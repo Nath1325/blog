@@ -45,13 +45,13 @@ class FrontController
 
         switch ($action){
 
-            case "acceuil":
-                require (__DIR__ . '/../view/Acceuil.php');
-                break;
-
-            case "article" :
+            case "showArticle" :
+                $id = $_GET['article'];
                 $a = new Article();
-                $article = $a->getArticle();
+                $article = $a->getArticle($id);
+                require(__DIR__ . '/../view/Article.php');
+
+
 
 
         }
