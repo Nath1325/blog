@@ -97,10 +97,8 @@
 
     </div>
 </header>
-<br>
 
-<br>
-<div class="container">
+<div class="container" style="margin-top: 100px">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-preview">
@@ -121,7 +119,7 @@
 
 <!---------------- Footer ------------------->
 
-<footer class="page-footer font-small bg-dark pt-4 fixed-bottom">
+<footer class="page-footer font-small bg-dark pt-4" style="margin-top: 100px">
     <div class="container">
         <div class="footer-copyright text-center py-3"> created by :
             <a href="https://mdbootstrap.com/education/bootstrap/"> Nathan & Mehdi</a>
