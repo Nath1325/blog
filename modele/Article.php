@@ -16,4 +16,10 @@ class Article {
         return $gt->FindById($id);
     }
 
+    public function posterArticle($id_user,$titre,$article,$date){
+        $gt = new ArticleGateway();
+        $gt->insert($id_user,$titre,$article,$date);
+
+    }
+
 }

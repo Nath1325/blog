@@ -18,6 +18,8 @@
     <!-- Bootstrap core CSS -->
     <link href="style/endor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Londrina+Solid|Montserrat:700|Timmana" rel="stylesheet">
+
     <!-- Custom fonts for this template -->
     <link href="style/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -74,7 +76,7 @@
             echo $_SESSION['login'];
             echo '</button>';
             echo '<div class="dropdown-menu dropdown-primary">';
-            echo '<a class="dropdown-item" href="#">Post new article</a>';
+            echo '<a class="dropdown-item" href="index.php?action=poster">Post new article</a>';
             echo '<a href="index.php?action=logout" class="dropdown-item" href="#">Logout</a>';
             echo'</div>';
             echo'</div>';
@@ -91,8 +93,8 @@
 
 <!---------------- Content ------------------->
 
-<header class="position-relative overflow-hidden p-5 p-md-5 text-center" style="background-image: url(ressources/background.jpg); background-position:65% 35% ;display::block;" >
-    <div class="col-md-5 p-lg-5 mx-auto my-5">
+<header class="position-relative overflow-hidden p-5 p-md-5 text-center " style="background-image: url(ressources/background.jpg); height: 100%; background-repeat: no-repeat; background-size: cover; background-position:65% 35% ;display::block;" >
+    <div class="col-md-5 p-lg-5 mx-auto my-5 ">
         <h1 class="display-4 font-weight-normal" style="color: white" >Blog</h1>
 
     </div>
@@ -104,7 +106,7 @@
             <div class="post-preview">
                 <?php foreach ($articles as $a): ?>
                     <a href="index.php?action=showArticle&article=<?php echo $a['id_article']; ?>">
-                        <h2 class="post-title" style="font-family: 'Trebuchet MS';font-weight: 800"><?php echo $a['titre']; ?></h2>
+                        <h2 class="post-title"><?php echo $a['titre']; ?></h2>
                     </a>
 
                     <p class="post-meta"><?php echo $a['date_publication']; ?></p>

@@ -10,6 +10,7 @@ include_once (__DIR__.'/../modele/Article.php');
 include_once (__DIR__.'/../modele/User.php');
 include_once (__DIR__.'/../modele/Connection.php');
 include_once (__DIR__.'/../controller/UserController.php');
+include_once (__DIR__.'/../controller/ArticleController.php');
 
 class FrontController
 {
@@ -78,6 +79,14 @@ class FrontController
                 $this->afficherBDD();
                 break;
 
+            case "poster" :
+                require(__DIR__.'/../view/Poster.php');
+                break;
+
+            case "submit" :
+                new ArticleController("submit");
+                $this->afficherBDD();
+                break;
 
 
 

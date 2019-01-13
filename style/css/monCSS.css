@@ -7,3 +7,16 @@
     display:block;
     background-image: url(/ressources/background.jpg);
 }
+
+h1 {
+    font-family: 'Kalam', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.desc {
+    font-family: 'Raleway', sans-serif;
+
+}

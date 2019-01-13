@@ -67,7 +67,7 @@
             echo $_SESSION['login'];
             echo '</button>';
             echo '<div class="dropdown-menu dropdown-primary">';
-            echo '<a class="dropdown-item" href="#">Post new article</a>';
+            echo '<a class="dropdown-item" href="index.php?action=poster">Post new article</a>';
             echo '<a href="index.php?action=logout" class="dropdown-item" href="#">Logout</a>';
             echo'</div>';
             echo'</div>';

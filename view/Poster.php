@@ -13,7 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="style/endor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+
     <!-- Custom fonts for this template -->
     <link href="style/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -21,7 +21,6 @@
 
     <!-- Custom styles for this template -->
     <link href="style/css/clean-blog.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kalam|Londrina+Solid|Montserrat:700|Raleway:200|Timmana" rel="stylesheet">
 
     <!---------------- Materiel design for Bootstrap ------------------->
 
@@ -38,9 +37,10 @@
     <!-- Your custom styles (optional) -->
     <link href="style/css/style.css" rel="stylesheet">
     <link href="style/css/monCSS.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body style="background-image: url(ressources/post.jpg); height: 100%; background-repeat: no-repeat; background-size: cover; background-position: 80% 20% ;display::block;">
 <!---------------- Navigation ------------------->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Blog</a>
@@ -60,7 +60,6 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
             </li>
-
         </ul>
         <?php if(isset($_SESSION['login'])) {
             echo '<div class="dropdown">';
@@ -68,7 +67,7 @@
             echo $_SESSION['login'];
             echo '</button>';
             echo '<div class="dropdown-menu dropdown-primary">';
-            echo '<a class="dropdown-item" href="index.php?action=poster">Post new article</a>';
+            echo '<a class="dropdown-item" href="index.php?action=poster&submit">Post new article</a>';
             echo '<a href="index.php?action=logout" class="dropdown-item" href="#">Logout</a>';
             echo'</div>';
             echo'</div>';
@@ -83,30 +82,59 @@
     </div>
 </nav>
 
-<!---------------- Header ------------------->
-
-
-<header style="background-image: url(ressources/banner2.png); background-position: 50%  ;display::block;" class="position-relative overflow-hidden p-5 p-md-5 text-center bg-light">
-    <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4"> <?php echo $article['0']['titre'] ?></h1>
-    </div>
-</header>
 
 <!---------------- Content ------------------->
 
-<br>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="post-preview">
-                <p class="desc"> <?php echo $article['0']['article']?></p>
+<form method="post" action="index.php?action=submit">
+    <section class="form-gradient mb-5" style="margin-left: 30%; margin-right: 30%; margin-top: 5%">
+        <div class="card">
+            <div class="header" style="background-color: #2b0038">
+                <div class="row d-flex justify-content-center">
+                    <h3 class="white-text mb-0 py-5 font-weight-bold desc">Ecrivez votre article</h3>
+                </div>
+            </div>
+            <!--Header-->
+
+            <div class="card-body mx-4">
+
+                <div class="md-form">
+                    <i class="fas fa-tag prefix grey-text"></i>
+                    <input type="text" id="form106" class="form-control" name="titre" required="required">
+                    <label for="form106">Titre</label>
+                </div>
+
+                <div class="md-form">
+                    <i class="fas fa-pencil-alt prefix grey-text"></i>
+                    <textarea type="text" id="form107" class="md-textarea form-control" rows="5" name="article"
+                              required="required"></textarea>
+                    <label for="form107">Article</label>
+                </div>
+
+
+                <!--Grid row-->
+                <div class="row d-flex align-items-center mb-3 mt-4">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-rounded z-depth-1a" style="background-color: #7a1d36">Poster</button>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
             </div>
 
         </div>
-    </div>
-</div>
+        <!--/Form with header-->
+
+    </section>
+</form>
+
 
 <!---------------- Footer ------------------->
+
 <footer class="page-footer font-small elegant-color-dark pt-4 fixed-bottom">
     <div class="container">
         <div class="footer-copyright text-center py-3"> created by :
@@ -121,3 +149,4 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="style/js/mdb.min.js"></script>
 </body>
+</html>

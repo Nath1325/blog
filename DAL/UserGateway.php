@@ -57,15 +57,6 @@ class UserGateway{
         return $resultat;
     }
 
-    /*public function FindByPassword($password){
-        $this->con = new Connection($this->dsn,$this->user,$this->password);
-        $query= 'SELECT * FROM User where mdp=?';
-        $this->con->executeQuery($query,
-            [1=>[$password,PDO::PARAM_STR]]
-        );
-        $resultat= $this->con->getResultsTableau();
-        return $resultat;
-    }*/
 
     public function existInDB($mdp,$pseudo){
         $this->con = new Connection($this->dsn,$this->user,$this->password);
