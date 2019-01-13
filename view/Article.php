@@ -95,7 +95,7 @@
 <!---------------- Content ------------------->
 
 <br>
-<div class="container">
+<div class="container" style="margin-top: 60px">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-preview">
@@ -106,8 +106,60 @@
     </div>
 </div>
 
+<!---------------- Commentaires ------------------->
+
+<section class="container" style="margin-top: 100px; margin-bottom: 100px">
+        <div class="media mt-4 px-1">
+            <div class="media-body">
+                <?php foreach ($commentaires as $c): ?>
+                    <h5 class="font-weight-bold mt-0">
+                        <p><?php echo $c['username']?> posted :  </p>
+                    </h5>
+                    <?php echo $c['contenu']?>
+                    <hr>
+                <?php endforeach ?>
+            </div>
+        </div>
+</section>
+
+<!---------------- Poster commentaire ------------------->
+
+
+<form method="post" action="index.php?action=showArticle&article=<?php echo $article['0']['id_article']; ?>&commentaire=poster" >
+    <div class="card " style="margin-right: 35%; margin-left: 35%; margin-bottom: 100px">
+
+        <h5 class="card-header sunny-morning-gradient black-text text-center py-4">
+            <strong>Poster un commentaire :</strong>
+        </h5>
+
+        <div class="card-body px-lg-5 pt-0">
+
+            <form class="text-center" style="color: #757575;">
+
+                <div class="md-form mt-3">
+                    <input required="required" type="text" id="materialContactFormName" name="usernameCommentaire" class="form-control">
+                    <label for="materialContactFormName">Enter a username</label>
+                </div>
+
+
+                <div class="md-form">
+                    <textarea required="required" type="text" id="materialContactFormMessage" name="message" class="form-control md-textarea" rows="3"></textarea>
+                    <label for="materialContactFormMessage">Message</label>
+                </div>
+
+                <button class="btn btn-grey btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Poster</button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+
 <!---------------- Footer ------------------->
-<footer class="page-footer font-small elegant-color-dark pt-4 fixed-bottom">
+<footer class="page-footer font-small elegant-color-dark pt-4">
     <div class="container">
         <div class="footer-copyright text-center py-3"> created by :
             <a href="https://mdbootstrap.com/education/bootstrap/"> Nathan & Mehdi</a>

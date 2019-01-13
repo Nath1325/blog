@@ -9,8 +9,10 @@
 include_once (__DIR__.'/../modele/Article.php');
 include_once (__DIR__.'/../modele/User.php');
 include_once (__DIR__.'/../modele/Connection.php');
+include_once (__DIR__.'/../modele/Commentaire.php');
 include_once (__DIR__.'/../controller/UserController.php');
 include_once (__DIR__.'/../controller/ArticleController.php');
+include_once (__DIR__.'/../controller/CommentaireController.php');
 
 class FrontController
 {
@@ -60,7 +62,13 @@ class FrontController
 
             case "showArticle" :
                 $id = $_GET['article'];
+                if (isset($_GET['commentaire'])) {
+                    new CommentaireController("poster");
+
+                }
                 $a = new Article();
+                $c = new Commentaire();
+                $commentaires = $c->getAllById($id);
                 $article = $a->getArticle($id);
                 require(__DIR__ . '/../view/Article.php');
                 break;
@@ -87,9 +95,6 @@ class FrontController
                 new ArticleController("submit");
                 $this->afficherBDD();
                 break;
-
-
-
 
         }
     }
