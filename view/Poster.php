@@ -86,7 +86,7 @@
 <!---------------- Content ------------------->
 
 <form method="post" action="index.php?action=submit">
-    <section class="form-gradient mb-5" style="margin-left: 30%; margin-right: 30%; margin-top: 5%">
+    <section class="form-gradient mb-5" style="margin-left: 30%; margin-right: 30%; margin-top: 5%" >
         <div class="card">
             <div class="header" style="background-color: #2b0038">
                 <div class="row d-flex justify-content-center">
