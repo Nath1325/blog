@@ -22,4 +22,8 @@ class Article {
 
     }
 
+    public function getAuteur($id_article){
+        $gt = new ArticleGateway();
+    }
+
 }

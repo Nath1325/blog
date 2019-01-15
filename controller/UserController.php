@@ -24,8 +24,9 @@ class UserController
             case "login" :
                 $username = $_POST['username'];
                 $mdp = $_POST['password'];
+                $sha = sha1($mdp);
                 $user = new User();
-                if ($user->exist($mdp,$username)) {
+                if ($user->exist($sha,$username)) {
                     $_SESSION['login'] = $username;
                 }
 

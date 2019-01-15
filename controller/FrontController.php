@@ -20,7 +20,7 @@ class FrontController
     public function __construct() {
         session_start();
         try {
-            $this->chooseAction();
+            $this->choisirRequete();
         }
         catch(PDOException $exception){
             echo "Probleme BDD:";
@@ -28,7 +28,7 @@ class FrontController
         }
     }
 
-    private function chooseAction()
+    private function choisirRequete()
     {
         if (isset($_REQUEST['action'])) {
             $action = $_REQUEST['action'];
@@ -40,7 +40,7 @@ class FrontController
             require(__DIR__ . '/../view/Acceuil.php');
         }
         else {
-            $this->showAction($action);
+            $this->requete($action);
 
         }
     }
@@ -51,7 +51,7 @@ class FrontController
         require(__DIR__ . '/../view/Acceuil.php');
     }
 
-    private function showAction ( string $action ){
+    private function requete ( string $action ){
 
         switch ($action){
 
@@ -61,16 +61,7 @@ class FrontController
 
 
             case "showArticle" :
-                $id = $_GET['article'];
-                if (isset($_GET['commentaire'])) {
-                    new CommentaireController("poster");
-
-                }
-                $a = new Article();
-                $c = new Commentaire();
-                $commentaires = $c->getAllById($id);
-                $article = $a->getArticle($id);
-                require(__DIR__ . '/../view/Article.php');
+                new ArticleController("showArticle");
                 break;
 
             case "connection" :

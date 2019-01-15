@@ -28,7 +28,21 @@ class ArticleController
                 $a = new Article();
                 $a->posterArticle($id_user,$titre,$article,$date);
                 break;
+
+            case "showArticle":
+                $id = $_GET['article'];
+                if (isset($_GET['commentaire'])) {
+                    new CommentaireController("poster");
+
+                }
+                $a = new Article();
+                $c = new Commentaire();
+                $commentaires = $c->getAllById($id);
+                $article = $a->getArticle($id);
+                require(__DIR__ . '/../view/Article.php');
+                break;
         }
+
     }
 
 }
